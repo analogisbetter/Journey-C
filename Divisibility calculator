@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+  float num;
+  printf("Give a value: ");
+  scanf("%f", &num); //Take the input value for checking divisibility
+  float tolerance = 0.001;
+  printf("Divisible by 1\n\n");
+  if (fmod(num, 2.0) == 0.0)
+     printf( "Divisible by 2\n\n"); //Divisible by 2?
+  if (fmod(num, 3.0) == 0.0)
+     printf( "Divisible by 3\n\n"); //Divisible by 3?
+  if (fmod(num, 4.0) == 0.0)
+     printf( "Divisible by 4\n\n"); //Divisible by 4?
+  if (fmod(num, 5.0) == 0.0)
+     printf( "Divisible by 5\n\n"); //Divisible by 5?
+  if (fmod(num, 6.0) == 0.0)
+     printf( "Divisible by 6\n\n"); //Divisible by 6?
+  if (fmod(num, 7.0) == 0.0)
+     printf( "Divisible by 7\n\n"); //Divisible by 7?
+  if (fmod(num, 8.0) == 0.0)
+     printf( "Divisible by 8\n\n"); //Divisible by 8?
+  if (fmod(num, 9.0) == 0.0)
+     printf( "Divisible by 9\n\n"); //Divisible by 9?
+  if (fmod(num, 10.0) == 0.0)
+     printf( "Divisible by 10\n\n"); //Divisible by 10?
+  if (fmod(num, 11.0) == 0.0)
+     printf( "Divisible by 11"); //Divisible by 11?
+  return 0;
+}
